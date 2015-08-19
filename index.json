@@ -28,7 +28,7 @@
         }
       ]
     },
-    "./index": {
+    "./": {
         "config": {
         "logging": false,
         "consoleoutput": true,
