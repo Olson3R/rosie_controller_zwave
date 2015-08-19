@@ -9,7 +9,7 @@ A plugin for the [Rosie Controller](https://github.com/Olson3R/rosie_controller)
 2. Add and configure the plugin in the controllers rejoice configuration file.
 ```
 "rosie_controller_zwave": {
-    "config": {
+  "config": {
     "logging": false,
     "consoleoutput": true,
     "saveconfig": true,
