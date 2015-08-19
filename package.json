@@ -1,0 +1,34 @@
+{
+  "name": "rosie_controller_zwave",
+  "version": "0.1.0",
+  "description": "Adds Z-Wave functionality to the Rosie Controller.",
+  "author": "Scott Olson",
+  "license": "MIT",
+  "keywords": [
+    "home",
+    "automation",
+    "rosie",
+    "zwave"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Olson3R/rosie_controller_zwave"
+  },
+  "bugs": {
+    "url": "https://github.com/Olson3R/rosie_controller_zwave/issues"
+  },
+  "homepage": "https://github.com/Olson3R/rosie_controller_zwave",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/rejoice/bin/rejoice -c index.json -p ./"
+  },
+  "dependencies": {
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "hapi": "^8.2.0",
+    "openzwave": "0.0.32",
+    "rejoice": "^2.0.1",
+    "underscore": "^1.8.3"
+  }
+}
