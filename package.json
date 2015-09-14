@@ -1,6 +1,6 @@
 {
   "name": "rosie_controller_zwave",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds Z-Wave functionality to the Rosie Controller.",
   "author": "Scott Olson",
   "license": "MIT",
